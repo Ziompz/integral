@@ -1,0 +1,216 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fef6e4;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #f582ae;
+    color: #172c66;
+    padding: 20px 0;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav {
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #172c66;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #f55d56;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Opcional: Centrar las tarjetas horizontalmente */
+}
+
+.card {
+    width: 230px;
+    height: 350px;
+    background-color: #fff;
+    border: 2px solid #323232;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img {
+    display: flex;
+    justify-content: center;
+    overflow: hidden; /* Evita que la imagen se salga del contenedor */
+}
+
+.img {
+    width: 150px;
+    height: 150px;
+    background-color: #228b22;
+    border-radius: 50%;
+}
+
+.card-title {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #323232;
+}
+
+.card-subtitle {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+}
+
+.card-divider {
+    margin-top: 10px;
+    border-top: 1px solid #323232;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #323232;
+}
+
+.card-btn {
+    padding: 10px 20px;
+    background-color: #2d8cf0;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.card-btn:hover {
+    background-color: #1e75d8;
+}
+
+.card-btn:active {
+    transform: translateY(1px);
+}
+
+/* Contenedor de productos seleccionados */
+.cart-container {
+    margin-top: 50px;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.cart-container h2 {
+    margin-bottom: 10px;
+}
+
+.clear-cart-btn {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.clear-cart-btn:hover {
+    background-color: #d32f2f;
+}
+
+.clear-cart-btn:active {
+    transform: translateY(1px);
+}
+
+.clear-cart-btn:focus {
+    outline: none;
+}
+
+/* Contenedor de productos seleccionados */
+#cart-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-list li {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart-item-title {
+    flex-grow: 1;
+    font-size: 16px;
+}
+
+.cart-item-price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #323232;
+}
+
+/* CSS para el precio total con efecto de cambio de color */
+#total-price {
+    transition: color 0.5s ease; /* Transición suave del color durante medio segundo */
+}
+
+.total-price-increase {
+    color: #f3d2c1; /* Color verde para indicar aumento */
+}
+
+.total-price-decrease {
+    color: #fff; /* Color rojo para indicar disminución */
+}
+
+
+
+
+
+
+

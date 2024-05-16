@@ -1,0 +1,58 @@
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: #f582ae;
+    color: #fef6e4;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.back-button:hover {
+    background-color: #f3d2c1;
+}
+
+body {
+  background-color:#fef6e4 ;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+    height: auto;
+    border-radius: 2em;
+    padding: 20px;
+    background-color: #f3d2c1;
+    box-shadow: 5px 1px 3px rgb(221, 95, 177);
+}
+
+.profileimage img {
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    object-fit: cover; /* Esto asegura que la imagen se ajuste al tamaño del contenedor sin deformarse */
+}
+
+.info {
+    color: #001858;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.Name {
+    font-size: 20px;
+}
+
+.contact {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
